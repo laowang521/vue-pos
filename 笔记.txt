@@ -1,0 +1,15 @@
+{{渲染的数据}}
+
+<p v-text="msg" v-once></p> v-text渲染数据 ,v-once只渲染一次
+
+@click click事件 
+<button @click="msg='VUE真好玩'">再次改变</button>
+
+循环：前一个是数据 ，后一个是索引
+
+ <ul>
+   <li v-for="(data,index) in obj" v-text="index+'---------------'+data"></li>
+ </ul>
+ v-bind:class="{ 'active': cur == index}"//好用法
+
+ <template> </template> 中间需要放置一层div   <template> </template>中间还能再放置 <template> </template>
