@@ -2,4 +2,4 @@
 一个VUE开发的收银系统
 预览地址
 
- [demo](https://github.com/simao521/vue-pos/tree/master/show2/index.html)
+ [demo](http://htmlpreview.github.io/?https://github.com/simao521/vue-pos/blob/master/show2/index.html#/)
